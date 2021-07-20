@@ -7,7 +7,7 @@ public class MaximumSubarray {
         dp[0] = A[0];
         int ans = dp[0];
 
-        for(int i = 0; i < n; i++) {
+        for(int i = 1; i < n; i++) {
             dp[i] = A[i] + (dp[i - 1] > 0 ? dp[i - 1] : 0);
             ans = Math.max(ans, dp[i]);
         }
