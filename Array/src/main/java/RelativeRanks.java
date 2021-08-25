@@ -1,6 +1,3 @@
-package array;
-
-//import java.util.HashMap;
 
 public class RelativeRanks {
     public String[] findRelativeRanks(int[] score) {

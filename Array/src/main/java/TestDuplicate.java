@@ -1,6 +1,3 @@
-package array;
-
-import com.sun.source.doctree.SeeTree;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,6 +1,3 @@
-package array;
-
-//import org.jetbrains.annotations.NotNull;
 public class TwoSum {
     public int[] twoSum(int[] num, int target) {
         int[] indice = new int[2];
