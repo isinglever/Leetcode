@@ -1,5 +1,5 @@
 import java.util.HashMap;
-import java.util.HashSet;
+
 public class LongestSubstring {
     public int lengthOfLongestSubstring(String s) {
 //        char[] ch = s.toCharArray();
@@ -9,7 +9,7 @@ public class LongestSubstring {
 //        }
 //        return result.size();
         int max = 0;
-        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> map = new HashMap<>();
         for (int i = 0, j = 0; i < s.length(); ++i) {
             if (map.containsKey(s.charAt(i))) {
                 j = Math.max(j,map.get(s.charAt(i)) + 1);
