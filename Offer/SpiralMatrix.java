@@ -5,15 +5,15 @@ public class SpiralMatrix {
         int t = 0, b = matrix.length - 1, x = 0;
         int[] res = new int[(r+1)*(b+1)];
         while(true) {
-            for(int i = 1; i <= r; i++) res[x++] = matrix[t][i]; //left to right
+            for(int i = l; i <= r; i++) res[x++] = matrix[t][i]; // left to right.
             if(++t > b) break;
-            for(int i = t; i <= b; i++) res[x++] = matrix[i][r]; //top to bottom
+            for(int i = t; i <= b; i++) res[x++] = matrix[i][r]; // top to bottom.
             if(l > --r) break;
-            for(int i = r; i >=1; i--) res[x++] = matrix[b][i];
+            for(int i = r; i >= l; i--) res[x++] = matrix[b][i]; // right to left.
             if(t > --b) break;
             for(int i = b; i >= t; i--) res[x++] = matrix[i][l]; // bottom to top.
             if(++l > r) break;
-         }
+        }
         return res;
     }
 
