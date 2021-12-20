@@ -6,11 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-<<<<<<< HEAD
-    <orderEntry type="jdk" jdkName="corretto-1.8" jdkType="JavaSDK" />
-=======
     <orderEntry type="inheritedJdk" />
->>>>>>> 610664b00065b02d7f8270cfdfc136ea04643d3e
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
