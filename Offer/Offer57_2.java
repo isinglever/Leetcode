@@ -6,7 +6,7 @@ public class Offer57_2 {
         int sum = 0;
         ArrayList<int[]> ans = new ArrayList<>();
         
-        while (i < target/2) {
+        while (i <= target/2) {
             if (sum < target) {
                 sum += j;
                 j++;
