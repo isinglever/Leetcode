@@ -1,5 +1,5 @@
 import java.util.HashMap;
-
+//test github edit
 public class LongestSubstring {
     public int lengthOfLongestSubstring(String s) {
 //        char[] ch = s.toCharArray();
